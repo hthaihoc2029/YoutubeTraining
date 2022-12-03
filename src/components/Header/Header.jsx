@@ -6,11 +6,18 @@ import EmergencyRecordingOutlinedIcon from '@mui/icons-material/EmergencyRecordi
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import youtubeLogo from '../../img/youtube.png';
+import Home from "@mui/icons-material/Home"
 import avatar from '../../img/avatar.jpg';
-
+import ExploreIcon from "@mui/icons-material/Explore"
+import VideoLibraryIcon from "@mui/icons-material/VideoLibrary"
+import { History,OndemandVideo,WatchLater,ThumbUp, ExpandMoreOutlined, YouTube, Theaters,SportsEsports,Settings,Flag, Help,Feedback, Subscriptions, SubscriptionsOutlined, Watch } from '@mui/icons-material';
+import SidebarRow from 'components/SideBar/SidebarRow';
+import "./Sidebar.css"
 const Header = (props) => {
   return (
-    <div
+
+    <div className="parent_header">
+      <div
       className="header"
       style={{
         display: 'flex',
@@ -77,6 +84,20 @@ const Header = (props) => {
         />
       </div>
     </div>
+    <div className="sidebar">
+      <SidebarRow icon={Home} title="Home"/>
+      <SidebarRow icon={ExploreIcon} title="Explore"/>
+      <SidebarRow icon={Subscriptions} title="Subscription"/>
+      <hr></hr>
+      <SidebarRow icon={VideoLibraryIcon} title="Library"/>
+      <SidebarRow icon={History} title="History"/>
+      <SidebarRow icon={OndemandVideo} title="Your Videos"/>
+      <SidebarRow icon={WatchLater} title="Watch later"/>
+      <SidebarRow icon={ThumbUp} title="Liked videos"/>
+      <SidebarRow icon={ExpandMoreOutlined} title="Show more"/>
+    </div>
+    </div>
+    
   );
 };
 

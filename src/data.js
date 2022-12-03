@@ -2,29 +2,31 @@ const youtobeList = [
   {
     id: 1,
     song_thumbnail:
-      'https://i.ytimg.com/vi/okz5RIZRT0U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDb0vsqgOg9POWvlOYv9jQE_TRkgA',
-    song_name: 'Waiting For You',
+      'https://img.youtube.com/vi/2tjNIeaKMtY/maxresdefault.jpg',
+    song_name: '[ PLAYLIST ] 분위기타고 흘러가는 캐롤🎄, 유명한 띵곡모음! 크리스마스 캐롤',
     author_avatar:
       'https://yt3.ggpht.com/YLjscgVTrforyH6pezQJP2GIxJekmct-KgLzU4M8DWcj0TqC94EGLuPq7OrFv4ShBN9FCNOs=s88-c-k-c0x00ffffff-no-rj',
-    author_name: 'Mono',
-    title: 'MONO - Waiting For You (Official Music Video)',
-    channel: 'Mono Offical',
-    view: '3.3M views',
-    publishedTime: '9 days ago',
+    author_name: '들어봐',
+    title: '[ PLAYLIST ] 분위기타고 흘러가는 캐롤🎄',
+    channel: '들어봐 나쁘지 않아',
+    view: '693k views',
+    publishedTime: '3 weeks ago',
+    song_link: 'https://www.youtube.com/watch?v=2tjNIeaKMtY',
   },
   {
     id: 2,
     song_thumbnail:
-      'https://i.ytimg.com/vi/MEnLvSuApU8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZZid0zHGk_y3_P9mE1ilnOBS6KQ',
+      'https://img.youtube.com/vi/pA3ZTo4ZnKQ/maxresdefault.jpg',
     song_name:
-      'ANH TỰ DO NHƯNG CÔ ĐƠN l TRUNG QUÂN x ĐẠT G | OFFICIAL MUSIC VIDEO',
+      'MixiCharity 2022 #2: Chuyến đi Cao Bằng đáng nhớ, hoàn thành chương trình góp gạch xây trường 2022.',
     author_avatar:
-      'https://yt3.ggpht.com/OEKeZbEJu0gIn62HtNL6OoG-Zo5ACcDplFUAeR3iYUhroHL0JctYfseYwT3hkY4vbvFsZ4l-NA=s88-c-k-c0x00ffffff-no-rj',
-    author_name: 'TRUNG QUÂN',
-    title: 'ANH TỰ DO NHƯNG CÔ ĐƠN l TRUNG QUÂN x ĐẠT G | OFFICIAL MUSIC VIDEO',
-    channel: 'TRUNG QUÂN',
-    view: '655k views',
-    publishedTime: '1 day ago',
+      'https://yt3.ggpht.com/ytc/AMLnZu9qep0bhKf-cS_HLEtShmBOAnd-j5WmfQhRDgcv8A=s900-c-k-c0x00ffffff-no-rj',
+    author_name: 'MixiGaming',
+    title: 'MixiCharity 2022 #2: Chuyến đi Cao Bằng đáng nhớ, hoàn thành chương trình góp gạch xây trường 2022.',
+    channel: 'MixiGaming',
+    view: '593k views',
+    publishedTime: '10 hours ago',
+    song_link: 'https://www.youtube.com/watch?v=pA3ZTo4ZnKQ',
   },
   {
     id: 3,
@@ -39,6 +41,7 @@ const youtobeList = [
     channel: 'VĂN MAI HƯƠNG OFFICIAL',
     view: '11M views',
     publishedTime: '1 year ago',
+    song_link: 'https://www.youtube.com/watch?v=A0Q-DCRTFuM',
   },
   {
     id: 4,
@@ -52,6 +55,7 @@ const youtobeList = [
     channel: 'Music - Vie Channel',
     view: '19K views',
     publishedTime: '1 day ago',
+    song_link: 'https://youtu.be/DK1KzV_4S8g',
   },
   {
     id: 5,
@@ -66,6 +70,8 @@ const youtobeList = [
     channel: 'Saigon 3107',
     view: '101k views',
     publishedTime: '4 weeks ago',
+    song_link: 'https://www.youtube.com/watch?v=K8-goZrGwws',
+
   },
   {
     id: 6,
@@ -79,6 +85,7 @@ const youtobeList = [
     channel: 'Bùi Công Nam',
     view: '88k views',
     publishedTime: '9 days ago',
+    song_link: 'https://www.youtube.com/watch?v=YGhE2HZ8g8M',
   },
   {
     id: 7,
@@ -92,6 +99,7 @@ const youtobeList = [
     channel: '🍀Music',
     view: '70k views',
     publishedTime: '1 month ago',
+    song_link: 'https://www.youtube.com/watch?v=SRdG9xi50K0'
   },
   {
     id: 8,
@@ -106,6 +114,7 @@ const youtobeList = [
     channel: 'Hà Nhi Official',
     view: '16M views',
     publishedTime: '5 months ago',
+    song_link: 'https://www.youtube.com/watch?v=6fIj4UwdSYo',
   },
 ];
 export default youtobeList;
